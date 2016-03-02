@@ -1,5 +1,6 @@
 package br.com.laurybueno.stopwatch;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
@@ -99,10 +100,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState){
 
-        savedInstanceState.putBoolean("running",running);
+        savedInstanceState.putBoolean("running", running);
         savedInstanceState.putBoolean("wasRunning",wasRunning);
         savedInstanceState.putInt("seconds",seconds);
 
+    }
+
+    public void linkTesteLayout(View view){
+        startActivity(new Intent(this, TesteLayout.class));
     }
 
     @Override

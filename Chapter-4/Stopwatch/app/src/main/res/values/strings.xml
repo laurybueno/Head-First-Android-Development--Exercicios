@@ -4,4 +4,11 @@
     <string name="stop">Stop</string>
     <string name="reset">Reset</string>
     <string name="action_settings">Settings</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="quente">Quente</string>
+    <string name="gelado">Gelado</string>
+    <string name="leite">Leite</string>
+    <string name="acucar">Acúcar</string>
+    <string name="limao">Limão</string>
+    <string name="cha">Obrigado por escolher o nosso ótimo chá! Escolha os detalhes da sua bebida a seguir:</string>
 </resources>
